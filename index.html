@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Adding content with document.write</title>
+  </head>
+  <body>
+    <h1>Adding content with document.write</h1>
+    <!-- 1 -->
+    <p id="p1">
+      <script>
+        for(i=1; i<=20; i++) {
+          document.write(i);
+          document.write(" ");
+        }
+     </script>
+    </p>
+
+   <!-- 2 -->
+    <p id="p2">
+        <script>
+          for(i=2; i<=20; i+=2) {
+            document.write(i);
+            document.write(" ");
+          }
+       </script>
+      </p>
+    
+      <!-- 3 -->  
+    <p id="p3">
+        <script>
+          for(i=1; i<=20; i+=2) {
+            document.write(i);
+            document.write(" ");
+          }
+       </script>
+      </p>
+
+      <!-- 4 -->
+      <p id="p4">
+        <script>
+          for(i=5; i<=20; i+=5) {
+            document.write(i);
+            document.write(" ");
+          }
+       </script>
+      </p>
+
+      <!-- 5 -->
+      <p id="p5">
+        <script>
+          for(i=0; i<=20; i+=2) 
+          console.log(Math.sqrt(i));
+          for (i=1; i<20; i++)
+          {
+            document.write(i);
+            document.write(" ");
+          }
+        //   console.log(Math.sqrt(i));
+           
+       </script>
+      </p>
+  </body>
+</html>
