@@ -1,0 +1,102 @@
+
+
+1 -->
+<p id="p1">
+  <script>
+    for(let i = 1; i <= 20; i++) {
+      document.write(i + " ");
+    }
+ </script>
+</p>
+
+<!-- 2 -->
+<p id="p2">
+    <script>
+      for(let i = 2; i <= 20; i += 2) {
+        document.write(i + " ");
+      }
+   </script>
+  </p>
+
+  <!-- 3 -->  
+  <p id="p3">
+    <script>
+      for(let i = 1; i <= 20; i += 2) {
+        document.write(i + " ");
+      }
+   </script>
+  </p>
+
+  <!-- 4 -->
+  <p id="p4">
+    <script>
+      for(let i = 5; i <= 20; i += 5) {
+        document.write(i + " ");
+      }
+   </script>
+  </p>
+
+   <!--Come back to this!!!  -->
+  <!-- 5 -->
+  <p id="p5">
+    <script>
+      for(let i = 1; i <= 10; i++) {
+        document.write((i * i) + ' ');
+      }
+   </script>
+  </p>
+  <!-- 6 -->
+  <p id="p6">
+    <script>
+      for(let i = 20; i >= 1; --i) {
+        document.write(i - " ");
+      }
+   </script>
+  </p>
+  <!-- 7 -->
+  <p id="p7">
+    <script>
+      for(let i = 20; i >= 1; i-=2 ) {
+        document.write(i - " ");
+      }
+   </script>
+  </p>
+  <!-- 8 -->
+  <p id="p8">
+    <script>
+      for(let i = 19; i >= 1; i-=2) {
+        document.write(i - " ");
+      }
+   </script>
+  </p>
+  <!-- 9 -->
+  <p id="p9">
+    <script>
+      for(let i = 100; i >= 1; i-=5) {
+        document.write(i - " ");
+      }
+   </script>
+  </p>
+  <!-- needs work -->
+  <!-- 10 -->
+  <p id="p10">
+    <script>
+      for(let i = 100; i >= 1; --i) {
+        document.write(i * i " ");
+      }
+
+      for(let i = 1; i <= 10; i++) {
+        document.write((i * i) + ' ');
+      }
+
+      // 11
+      <p id="p11">
+    <script> 
+    var= sampleArray: ["469", "755", "244", "245", "758", "450", "302", "20", "712", "71", "456", "21", "398", "339", "882", "848", "179", "535", "940", "472"];
+
+    for (let i= sampleArray; )
+
+
+
+   </script>
+  </p>
