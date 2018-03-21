@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Kata1</title>
+    <link rel="stylesheet" href="style.css">
   </head>
+
   <body>
     <h1>Adding content with document.write</h1>
     
@@ -141,14 +143,120 @@
 
 <p id="p15">
   <script>
-  
+  var total = 0;
     for(let i = 0; i <= 20 ; i++) {
-      document.write(sumAll(i) + " ");
-      
+      total = total + i
     }
-    
+      document.write(total);
+      
     </script>
-  </p>
+
+
+
+<p id="p16">
+  <script>
+    var total= 0
+    var sampleArray = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
+    for(let i = 0; i < sampleArray.length ; i++) {
+      total = total + sampleArray[i]
+    }
+      document.write(total);
+      
+    </script>
+
+<p id="p17">
+    <script>
+      var smallest= 1000000
+      var sampleArray = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
+      for(let i = 0; i < sampleArray.length ; i++) {
+        if (sampleArray[i] < smallest) {
+          smallest = sampleArray[i]
+        }
+      }
+        document.write(smallest);
+        
+      </script>
+
+<p id="p18">
+    <script>
+        var biggest= 0
+        var sampleArray = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
+        for(let i = 0; i < sampleArray.length ; i++) {
+          if (sampleArray[i] > biggest) {
+            biggest = sampleArray[i]
+          }
+        }
+          document.write(biggest);
+          
+        </script>
+
+<p id="p19">
+  <script>      
+for (i=1; i <=20; i++) {
+  let square= document.createElement("div")
+square.classList.add("square");
+document.body.appendChild(square);
+}
+</script>
+
+<p id="p20">
+  <!-- not done -->
+    <script>
+     for (let i = 1; i <= 20; i ++) {
+      let square = document.createElement("div")
+  square.classList.add("square");
+  square.style.width = (100 + 5*i) + 'px';
+  document.body.appendChild(square);
+      }
+   </script>
+
+   
+<p id= "p21">
+  <script>
+  // Display 20 solid gray rectangles, each 20px high, with widths in pixels given by the 20 elements of sampleArray.
+  var sampleArray = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
+  for (let i = 0; i <= sampleArray.length; i ++) {
+      let square = document.createElement("div")
+  square.classList.add("square");
+  square.style.width = (sampleArray[i]) + 'px';
+  document.body.appendChild(square);
+      } 
+ </script>
+
+<p id= "p21">
+  <script>
+  // Display 20 solid gray rectangles, each 20px high, with widths in pixels given by the 20 elements of sampleArray.
+  var sampleArray = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
+  for (let i = 0; i <= sampleArray.length; i ++) {
+      let square = document.createElement("div")
+  square.classList.add("square");
+  square.style.width = (sampleArray[i]) + 'px';
+  if (i%2==0){
+    square.style.backgroundColor= 'red';
+  }
+  document.body.appendChild(square);
+      } 
+
+ </script>
+
+<p id= "p22">
+  <script>
+  // Display 20 solid gray rectangles, each 20px high, with widths in pixels given by the 20 elements of sampleArray.
+  var sampleArray = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
+  for (let i = 0; i <= sampleArray.length; i ++) {
+      let square = document.createElement("div")
+  square.classList.add("square");
+  square.style.width = (sampleArray[i]) + 'px';
+  if (sampleArray[i]%2==0){
+    square.style.backgroundColor= 'red';
+  }
+  document.body.appendChild(square);
+      } 
+
+ </script>
+
+
+  </script>
   </body>
 </html>
 
